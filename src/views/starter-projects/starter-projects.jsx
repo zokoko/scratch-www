@@ -15,6 +15,7 @@ require('./starter-projects.scss');
 
 const StarterProjects = props => (
     <div className="inner starter-projects">
+    <h1>66666666666666666</h1>
         <h1><FormattedMessage id="starterProjects.starterProjects" /></h1>
         <p><FormattedMessage id="starterProjects.intro" /></p>
         <Box
