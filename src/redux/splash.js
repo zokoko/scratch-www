@@ -101,6 +101,7 @@ module.exports.getFeaturedGlobal = () => (dispatch => {
     api({
         uri: '/proxy/featured'
     }, (err, body, res) => {
+        console.log("featured",err, body, res);
         if (err) {
             dispatch(module.exports.setFetchStatus('featured', module.exports.Status.ERROR));
             dispatch(module.exports.setError(err));
